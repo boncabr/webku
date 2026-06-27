@@ -74,7 +74,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-8"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/15 border border-white/30 text-white text-sm font-semibold mb-8 drop-shadow-[0_1px_8px_rgba(0,0,0,0.9)]"
           >
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             Music without interruptions
