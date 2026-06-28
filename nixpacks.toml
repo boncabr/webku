@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["nodejs_22", "nodePackages_latest.pnpm"]
+
+[phases.install]
+cmds = ["cd artifacts/luneth-bot && pnpm install --no-frozen-lockfile"]
+
+[phases.build]
+cmds = ["cd artifacts/luneth-bot && pnpm run build"]
+
+[start]
+cmd = "npx serve artifacts/luneth-bot/dist/public -l $PORT"
