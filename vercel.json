@@ -1,0 +1,1 @@
+{"buildCommand":"cd artifacts/luneth-bot && npm install && npm run build","outputDirectory":"artifacts/luneth-bot/dist/public","installCommand":"echo skip","framework":null}
