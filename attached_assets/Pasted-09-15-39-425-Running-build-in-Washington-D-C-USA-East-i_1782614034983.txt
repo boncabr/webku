@@ -1,0 +1,40 @@
+09:15:39.425 Running build in Washington, D.C., USA (East) – iad1
+09:15:39.426 Build machine configuration: 2 cores, 8 GB
+09:15:39.872 Cloning github.com/boncabr/webku (Branch: main, Commit: 27332cc)
+09:15:39.875 Previous build caches not available.
+09:15:40.740 Cloning completed: 868.000ms
+09:15:42.597 Running "vercel build"
+09:15:42.621 Vercel CLI 54.17.2
+09:15:43.909 Running "install" command: `echo skip`...
+09:15:43.913 skip
+09:16:08.112 npm warn deprecated recharts@2.15.4: 1.x and 2.x branches are no longer active. Bump to Recharts v3 to receive latest features and bugfixes. See https://github.com/recharts/recharts/wiki/3.0-migration-guide
+09:16:11.375 
+09:16:11.376 added 229 packages, and audited 230 packages in 27s
+09:16:11.376 
+09:16:11.376 22 packages are looking for funding
+09:16:11.376   run `npm fund` for details
+09:16:11.377 
+09:16:11.378 found 0 vulnerabilities
+09:16:11.554 
+09:16:11.555 > @workspace/luneth-bot@0.0.0 build
+09:16:11.555 > vite build --config vite.config.ts
+09:16:11.555 
+09:16:11.861 vite v7.3.6 building client environment for production...
+09:16:11.939 transforming...
+09:16:12.554 src/components/ui/tooltip.tsx (2:0): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+09:16:15.958 ✓ 2175 modules transformed.
+09:16:16.581 rendering chunks...
+09:16:16.597 computing gzip size...
+09:16:16.616 dist/public/index.html                                                    1.42 kB │ gzip:   0.55 kB
+09:16:16.617 dist/public/assets/a_buat_logo_ini_terlih_1782564990682-BgtpzZtp.mp4    924.31 kB
+09:16:16.617 dist/public/assets/IMG_8111_1782564043283-CMhAcsh5.png                6,194.33 kB
+09:16:16.617 dist/public/assets/index-NBi-v1oR.css                                   105.19 kB │ gzip:  17.49 kB
+09:16:16.617 dist/public/assets/index-CCIG4G8L.js                                    456.79 kB │ gzip: 148.33 kB
+09:16:16.618 ✓ built in 4.73s
+09:16:16.729 Build Completed in /vercel/output [33s]
+09:16:16.804 Deploying outputs...
+09:16:17.856 Deployment completed
+09:16:17.978 Creating build cache...
+09:16:32.465 Created build cache: 14s
+09:16:32.465 Uploading build cache [60.18 MB]
+09:16:34.186 Build cache uploaded: 1.724s
