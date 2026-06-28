@@ -1,11 +1,8 @@
 [phases.setup]
-nixPkgs = ["nodejs_20"]
+nixPkgs = ["nodejs_22", "nodePackages_latest.pnpm"]
 
 [phases.install]
-cmds = [
-  "npm install -g pnpm@9",
-  "cd artifacts/luneth-bot && pnpm install --no-frozen-lockfile"
-]
+cmds = ["cd artifacts/luneth-bot && pnpm install --no-frozen-lockfile"]
 
 [phases.build]
 cmds = ["cd artifacts/luneth-bot && pnpm run build"]
